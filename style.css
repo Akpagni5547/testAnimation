@@ -1,0 +1,19 @@
+.helios{
+   
+}
+.akpagni{
+    width: 70px;
+    height: 70px;
+    
+    background-color: black;
+    border-radius: 100px;
+    margin: 100px auto 0;
+    box-shadow: 0 0 0 0 #000 ;
+    animation: pulsation 1.2s infinite;
+}
+@keyframes pulsation {
+    to{
+        box-shadow: 0 0 0 18px rgba(0, 0, 0, 0.01);
+    }
+    
+}
